@@ -25,7 +25,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if phone.match(/[\d](9)/) == nil
+if phone.match(/[0-9](9)/) == nil
   puts phone
   puts false
   false
